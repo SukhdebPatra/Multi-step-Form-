@@ -1,0 +1,149 @@
+.view-more-root {
+    position: relative;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.and-view-more {
+    color: #7e37d8;
+    opacity: 0.05;
+    line-height: 1;
+    font-size: calc(50px + (150 - 50) * ((100vw - 300px) / (1920 - 300)));
+    font-weight: 900;
+}
+
+.and-view {
+    position: absolute;
+    top: 50%;
+    color: #000;
+    letter-spacing: 1.2px;
+    font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1920 - 300)));
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.custom-scroll {
+    width: 355px;
+    height: 400px;
+    overflow: scroll;
+}
+
+.view-address{
+    max-width: 1200px;
+}
+.custom-project-box{
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    padding: 30px;
+    /* background-color: #fff; */
+    margin-bottom: 30px;
+}
+
+.img-20 {
+    height: 20px;
+}
+
+#loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    z-index: 9999;
+    background: rgb(0 0 0 / 30%);
+}
+
+.loader-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+}
+
+#ulDislikes,
+#ulAllergies,
+#ulMenus {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    max-height: 185px;
+    position: absolute;
+    z-index: 1050;
+    width: 92.5%;
+    background-color: #fff;
+}
+
+#ulDislikes li a,
+#ulAllergies li a,
+#ulMenus li a {
+    border: 1px solid #ddd;
+    /*margin-top: -1px;*/ /* Prevent double borders */
+    background-color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+}
+
+#ulDislikes li a:hover:not(.header),
+#ulAllergies li a:hover:not(.header),
+#ulMenus li a:hover:not(.header) {
+    background-color: #2282c2;
+    color: #fff;
+}
+
+.select2-dropdown {
+    z-index: 10060 !important; /*1051;*/
+}
+
+.close{
+    border: none;
+    background-color: transparent;
+}
+
+#btnClass{
+    padding: 9px;
+    position: relative;
+    top: 28px;
+}
+.select2-dropdown {
+    z-index: 10060 !important;
+    /*1051;*/
+}
+
+#ulPrograms {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    max-height: 185px;
+    position: absolute;
+    z-index: 1050;
+    width: 95.5%;
+    background-color: #fff;
+}
+
+#ulPrograms li a {
+    border: 1px solid #ddd;
+    /*margin-top: -1px;*/ /* Prevent double borders */
+    background-color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+}
+
+#ulPrograms li a:hover:not(.header) {
+    background-color: #2282c2;
+    color: #fff;
+}

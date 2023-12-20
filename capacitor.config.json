@@ -1,0 +1,6 @@
+{
+  "appId": "com.infuse.app",
+  "appName": "Infuse",
+  "webDir": "build",
+  "bundledWebRuntime": false
+}
